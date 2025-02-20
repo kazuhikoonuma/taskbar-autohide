@@ -4,12 +4,12 @@ A long time ago, in a system not so far away, a curious challenge emerged: the t
 
 ## Motivation
 
-![dialog](https://github.com/kazuhikoonuma/taskbar-autohide/blob/main/resources/dialog.png)
+![dialog](https://raw.githubusercontent.com/kazuhikoonuma/taskbar-autohide/refs/heads/main/resources/dialog.png)
 
 > A toolbar is already hidden on this side of your screen.  
 > You can have only one auto-hide toolbar per side.
 
-My note pc has an OLED display. To prevent burn-in, I want to hide the taskbar. However, when I wake up from sleep, the taskbar's auto-hide feature is disabled. It's a bit of a hassle to re-enable it from the settings. So I made a program that monitors this and re-enables it if necessary.
+My laptop has an OLED display. To prevent burn-in, I want to keep the taskbar hidden. However, when I wake up from sleep, the taskbar's auto-hide feature becomes disabled. Re-enabling it manually through the settings is a hassle. So, I created a program that monitors the taskbar and re-enables auto-hide when necessary.
 
 ## Features
 
@@ -21,14 +21,14 @@ My note pc has an OLED display. To prevent burn-in, I want to hide the taskbar. 
 ## Usage
 ### Simple Usage
 
-1. Download the latest release from the [Releases]() page.
+1. Download the latest release from the [Releases](https://github.com/kazuhikoonuma/taskbar-autohide/releases) page.
 2. Run the executable file.
 
 ### Advanced Usage
 
-1. Download
-2. Put the executable link file in a startup directory. (e.g., `shell:startup`)
-3. When you log in Windows, the program will start automatically.
+1. Download the executable.
+2. Place a shortcut to the executable in your startup directory (e.g., open `shell:startup`).
+3. When you log in to Windows, the program will start automatically.
 
 ## Operating Principle
 
@@ -45,11 +45,11 @@ This program monitors the taskbar's auto-hide feature by polling it every 10 sec
 pip install -r resources/requirements.txt
 pyinstaller resources/autohide.spec
 ```
-Then, the executable will be in the `dist` directory.
+After building, the executable will be located in the dist directory.
 
 ## About
 
-Repository : [GitHub](https://github.com/kazuhikoonuma/taskbar-autohide)
+Repository: [GitHub](https://github.com/kazuhikoonuma/taskbar-autohide)
 
 ## License
 
@@ -70,6 +70,6 @@ Please refer to the official license texts of these libraries for further detail
 
 ## Support
 
-I hope this project can be of use to you. If you would like to support me, please use the link below.
+I hope this project proves useful to you. If you would like to support me, please use the link below.
 
-[![ko-fi](https://github.com/kazuhikoonuma/taskbar-autohide/blob/main/resources/support_me_on_kofi_dark.png)](https://ko-fi.com/kazuhikoonuma)
+[![ko-fi](https://raw.githubusercontent.com/kazuhikoonuma/taskbar-autohide/refs/heads/main/resources/support_me_on_kofi_dark.png)](https://ko-fi.com/kazuhikoonuma)
