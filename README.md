@@ -1,3 +1,8 @@
+This tool is a workaround for: "A toolbar is already hidden on this side of your screen."  
+Download here [Releases](https://github.com/kazuhikoonuma/taskbar-autohide/releases)  
+
+[日本語はこちら](https://github.com/kazuhikoonuma/taskbar-autohide/blob/main/README.jp.md)
+
 ## Origin Story
 
 A long time ago, in a system not so far away, a curious challenge emerged: the taskbar's auto-hide feature would sometimes switch off on its own. Respecting the complexity of system design, I set out on a journey to restore desktop harmony. Thus, this program was created.
@@ -9,7 +14,7 @@ A long time ago, in a system not so far away, a curious challenge emerged: the t
 > A toolbar is already hidden on this side of your screen.  
 > You can have only one auto-hide toolbar per side.
 
-My laptop has an OLED display. To prevent burn-in, I want to keep the taskbar hidden. However, when I wake up from sleep, the taskbar's auto-hide feature becomes disabled. Re-enabling it manually through the settings is a hassle. So, I created a program that monitors the taskbar and re-enables auto-hide when necessary.
+My laptop has an OLED display. To prevent burn-in, I prefer to keep the taskbar hidden. However, after waking up from sleep, the taskbar’s auto-hide feature sometimes gets disabled. Re-enabling it manually through the settings is a hassle. So, I created a program that monitors the taskbar and re-enables auto-hide when necessary.
 
 ## Features
 
@@ -45,7 +50,7 @@ This program monitors the taskbar's auto-hide feature by polling it every 10 sec
 pip install -r resources/requirements.txt
 pyinstaller resources/autohide.spec
 ```
-After building, the executable will be located in the dist directory.
+After building, the executable will be located in the `dist` directory.
 
 ## About
 
@@ -53,7 +58,7 @@ Repository: [GitHub](https://github.com/kazuhikoonuma/taskbar-autohide)
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/kazuhikoonuma/taskbar-autohide/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/kazuhikoonuma/taskbar-autohide/blob/main/LICENSE) file for details.
 
 ## Third-Party Licenses
 
